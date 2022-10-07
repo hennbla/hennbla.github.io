@@ -103,7 +103,7 @@ body.page-template-page-fullsingle-me {
       rgba(0, 0, 0, 0) 0%,
       rgba(0, 0, 0, 1) 100%
     ),
-    url('../../images/hur_o.jpg');
+    url('../../images/Karla.jpg');
 
   background-position: center center;
   background-size: cover;
@@ -113,6 +113,7 @@ body.page-template-page-fullsingle-me {
 body.page-template-page-fullsingle-me h1 {
   font-weight: 600;
   font-size: 3rem;
+  color: #26FF31
 }
 
 .fs-me {
@@ -252,4 +253,8 @@ body.page-template-page-fullsingle-me h1 {
   fill: var(--secondary-color);
   -webkit-transition: 0.1s;
   transition: 0.1s;
+}
+p{
+  color: #E60B65;
+  background-color: #52EA59
 }
