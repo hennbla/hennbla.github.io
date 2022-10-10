@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+}
+/* Schriftart vererbt sich auf alle Elemente im body*/
+html{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Ausnahme h1: */
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fe348d;
+}
+
+/* oder lang: 
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h2{font-family: Verdana, Geneva, Tahoma, sans-serif;}
+a{font-family: Verdana, Geneva, Tahoma, sans-serif;} */
+a{
+    color: #0f0308;
+    text-decoration: none;
+    background-color: #fe348d;
+    padding: 10px;
+    border: 2px solid #0f0308;
+    /*abgerundete Ecken*/
+    border-radius: 10px;
+    /*online erstellt via https://html-css-js.com/css/generator/box-shadow/ */
+    box-shadow: 5px 5px 8px 0px rgba(15,3,8,0.59);
+    display: block;
+    width: 600px;
+}
+
+p{
+    border: 1px solid #0f0308;
+    padding: 16px;
+    width: 600px;
+    background-color: #ffe0e9;
+}
+
+img{
+    width: 600px;
+}
+
+/* Eine ID in html wird zu einer # in css.*/
+#zwei{
+background-color: #fe348d;
+}
+/* Eine Klasse (class) in html wird zu einem Punkt (.) in css.*/
+.gelb{
+    background-color: yellow;
+}
+
+.red-border {
+border-color: red;
+border-width: 1px;
+border-style: solid;
+/* oder kurz: border: 1px solid red; */
+}
+
+/* *< Element < class (.) < ID (#) */

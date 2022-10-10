@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!--oder einfach ! eingeben: Hülle für head-->
+<html>
+  <head>
+    <!-- Immer zu erst die Meta-Daten im head: meta braucht Attribute: zu erst UTF-8-->
+    <meta charset="UTF-8" />
+    <title>Über Henn Bla</title>
+    <meta name="description" content="Lerne mehr über Henn Bla" />
+    <!--Fogende meta: Indizierung via SE, ist aber auch schon implzit drin-->
+    <meta name="robots" content="index, follow" />
+    <!--Niemals den viewport (meta vp) vergessen!-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Verlinkung zum css über link (immer im head!)-->
+    <link rel="stylesheet" href="about.css" />
+  </head>
+  <body>
+    <!--alles Sichtbare in HTML-->
+    <h1 class="gelb red-border">Über Henn Bla</h1>
+    <!--Bild mit relativem Pfad-->
+    <img src="images/icke.jpg" alt="" />
+
+    <p class="red-border">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque eius
+      molestiae facere dignissimos sed minus voluptatem praesentium saepe aut
+      tenetur? Eligendi repellendus non accusamus pariatur possimus, odit labore
+      distinctio. Itaque.
+    </p>
+    <img src="https://randomuser.me/api/portraits/men/12.jpg" alt="" />
+    <h2>Zwischenüberschrift über mich</h2>
+
+    <!--Eine ID ist eindeutig und einmalig, besteht aus einem Wort.-->
+    <p id="zwei">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis atque
+      vitae earum possimus fugiat incidunt voluptatum, assumenda odit sed quis
+      officia consequatur non ea cupiditate similique ut pariatur! Dolores,
+      assumenda.
+    </p>
+
+    <!--Fehler im Quellcode: alternative Beschreibung (jp statt jpg)-->
+    <img
+      src="https://randomuser.me/api/portraits/men/12.jp"
+      alt="Foto von eienm random dude, der auf dem Gras liegt und ein blaues Shirt trägt"
+    />
+
+    <!--Link mit Text zurück zu Startseite-->
+
+    <a href="index.html">zurück zur Startseite</a>
+
+    <!--Eine class bildet eine Gruppe von (verschiedenen) Elementen, kann aus mehreren Wörtern bestehen.-->
+    <p class="gelb">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad numquam
+      officiis voluptas assumenda delectus sed inventore eveniet ullam,
+      doloremque animi impedit reprehenderit? Ut quo quaerat ratione similique
+      error a praesentium.
+    </p>
+  </body>
+</html>
